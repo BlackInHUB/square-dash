@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    // vertical-align: top;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    background-color: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+.section {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px 0 30px;
+    min-height: 100vh;
+}
