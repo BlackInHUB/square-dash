@@ -1,7 +1,7 @@
 .main__section {
     height: 100vh;
     position: relative;
-    background-image: url(../../images/hero-bg.png), linear-gradient(180deg, #5D92E1 0%, #9CC4FF 100%);
+    background-image: url(/images/hero-bg.png), linear-gradient(180deg, #5D92E1 0%, #9CC4FF 100%);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -13,7 +13,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx){
     .main__section {
-        background-image: url(../../images/hero-bg@2x.png), linear-gradient(180deg, #5D92E1 0%, #9CC4FF 100%);
+        background-image: url(/images/hero-bg@2x.png), linear-gradient(180deg, #5D92E1 0%, #9CC4FF 100%);
     }
 }
 

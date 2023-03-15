@@ -44,3 +44,5 @@ function offset (el) {
     return {top: rect.top + scrollTop, left: rect.left + scrollLeft};
 };
 //
+
+animOnScroll();
