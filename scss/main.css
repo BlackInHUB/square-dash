@@ -212,7 +212,7 @@ span.anim-titles {
 .main__section {
   height: 100vh;
   position: relative;
-  background-image: url(/images/hero-bg.png), linear-gradient(180deg, #5D92E1 0%, #9CC4FF 100%);
+  background-image: url("../../images/hero-bg.png"), linear-gradient(180deg, #5D92E1 0%, #9CC4FF 100%);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -222,7 +222,7 @@ span.anim-titles {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .main__section {
-    background-image: url(/images/hero-bg@2x.png), linear-gradient(180deg, #5D92E1 0%, #9CC4FF 100%);
+    background-image: url("../../images/hero-bg@2x.png"), linear-gradient(180deg, #5D92E1 0%, #9CC4FF 100%);
   }
 }
 .main__nav {
@@ -660,14 +660,14 @@ span.anim-titles {
 .results__content-wrapper {
   display: flex;
   padding: 70px 32px 70px 48px;
-  background-image: url(../../images/results-bg.jpg);
+  background-image: url("../../images/results-bg.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .results__content-wrapper {
-    background-image: url(../../images/results-bg@2x.jpg);
+    background-image: url("../../images/results-bg@2x.jpg");
   }
 }
 .results__left-container {
