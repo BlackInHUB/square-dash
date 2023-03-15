@@ -5,10 +5,10 @@ window.addEventListener('load', onPageLoad);
 function onPageLoad() {
     const buttons = document.querySelectorAll('.button');
     const about = document.querySelector('.main__about').querySelectorAll('span');
-    const firstTitle = document.querySelector('.first').querySelectorAll('span');
-    const secondTitle = document.querySelector('.second').querySelectorAll('span');
+    const firstTitle = document.querySelector('.main__title-first').querySelectorAll('span');
+    const secondTitle = document.querySelector('.main__title-second').querySelectorAll('span');
     const mainImg = document.querySelector('.main__img');
-    const partners = document.querySelector('.partners-wrapper');
+    const partners = document.querySelector('.insurance-wrapper');
 
     let timeout = 0;
 

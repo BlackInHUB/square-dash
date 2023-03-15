@@ -1,0 +1,144 @@
+.pricing__section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #333333;
+    background-color: #F5F0E8;;
+}
+
+.save {
+    color: #303F9F;
+}
+
+.pricing__button-wrapper {
+    margin-top: 10px;
+}
+
+.pricing__button {
+    font-family: inherit;
+    font-size: 19px;
+    line-height: 1.21;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    background: #303F9F;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+
+    &.white {
+        color: #303F9F;
+        background-color: #fff;
+    }
+
+    &:hover,
+    :focus-visible {
+        border: 2px solid #fff;
+
+        &.white {
+            border: 2px solid #303F9F;
+        }
+    }
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.pricing__list {
+    overflow: hidden;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4, 276px);
+    margin-top: 30px;
+}
+
+.pricing__list-item {
+    text-align: left;
+    padding: 33px 24px 24px 24px;
+    background: #FFFFFF;
+    border-radius: 15px;
+
+    &.popular {
+        background-color: #303F9F;
+        color: #FFFFFF;
+    }
+}
+
+.pricing__list-item-title {
+    font-size: 37px;
+    line-height: 1.19;
+    margin-bottom: 20px;
+}
+
+.pricing__list-item-price,
+.plan-details__list {
+    color: #303F9F;
+
+    &.popular {
+        color: #FFFFFF;
+    }
+}
+
+.pricing__list-item-price {
+    font-size: 21px;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.pricing__list-item-price-number {
+    font-size: 45px;
+    line-height: 1;
+}
+
+.pricing__list-item-funding {
+    font-size: 18px;
+    line-height: 1.28;
+    margin-bottom: 30px;
+}
+
+.plan-details__list {
+    margin-bottom: 80px;
+}
+
+.plan-details__list-item {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    line-height: 1.24;
+
+    &:not(:last-child) {
+        margin-bottom: 14px;
+    }
+
+    &::before {
+        content: url(../../images/done.png);
+        margin-right: 10px;
+    }
+
+    &.popular::before {
+        content: url(../../images/done-white.png);
+    }
+}
+
+.pricing__list-item-buttoon {
+    width: 100%;
+    padding: 16px 0;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #303F9F;
+    background: #FFFFFF;
+    border: 1px solid #303F9F;
+    border-radius: 15px;
+    transition: all 250ms linear;
+    outline: none;
+    cursor: pointer;
+
+    &:hover,
+    :focus-visible {
+        background-color: #303F9F;
+        border-color: #FFFFFF;
+        color: #FFFFFF;
+    }
+}

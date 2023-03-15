@@ -1,0 +1,35 @@
+.footer__section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #FFFFFF;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left-container {
+font-size: 18px;
+}
+
+.footer__address {
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+.footer__right-container {
+    padding-right: 76px;
+}
+
+.footer__button {
+    display: block;
+    outline: none;
+    font-family: inherit;
+    color: #303F9F;
+    font-size: 21px;
+    line-height: 1.19;
+    cursor: pointer;
+
+    &:not(:last-child) {
+        margin-bottom: 7px;
+    }
+}
